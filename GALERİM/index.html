@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>ERGENÇ GALERİ</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1" />
+
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<style>
+		/* Video mobil uyumu */
+		#vid video {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		/* Responsive YouTube */
+		.yt-container {
+			position: relative;
+			padding-bottom: 56.25%;
+			height: 0;
+			overflow: hidden;
+			max-width: 100%;
+		}
+
+		.yt-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		/* Mobil düzen */
+		@media screen and (max-width: 768px) {
+			h1 {
+				font-size: 1.6em;
+			}
+
+			#nav a span {
+				display: none;
+			}
+
+			.vi {
+				height: 100vh;
+			}
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Video -->
+	<div id="vid">
+		<video class="vi" autoplay loop muted playsinline>
+			<source src="2.mp4" type="video/mp4">
+		</video>
+	</div>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon solid fa-home"><span>EV</span></a>
+			<a href="#work" class="icon solid fa-folder"><span>ARABALAR</span></a>
+			<a href="#contact" class="icon solid fa-envelope"><span>ULAŞIM</span></a>
+			<a href="https://www.instagram.com/abdulkadirergenc/" class="icon brands fa-instagram"><span>Instagram</span></a>
+			<a href="#youtube" class="icon brands fa-youtube"><span>Youtube</span></a>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Home -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Kadir ERGENÇ</h1>
+					<p>Size Özel Galeri, Hizmetinize Hazırdır</p>
+				</header>
+				<a href="#work" class="jumplink pic">
+					<img src="images/bmwlogo.jpg" alt="" loading="lazy" />
+				</a>
+			</article>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h2>Hasılat</h2>
+				</header>
+				<p>
+					Sizin Arabanızı Sizin İstediğiniz Gibi tasarlamayı bize bırakın,
+					siz hayalinizi söyleyin biz sizin için tasarlarız
+				</p>
+
+				<section>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small"><img src="images/merco.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/BMW.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/ww.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/arabam1.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/arabam2.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/arabam3.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/arabam4.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/arabam5.jpg" loading="lazy" class="image fit"></div>
+						<div class="col-4 col-6-medium col-12-small"><img src="images/arabam6.jpg" loading="lazy" class="image fit"></div>
+					</div>
+				</section>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact" class="panel">
+				<header>
+					<h2>Bize Başvurun</h2>
+				</header>
+				<form>
+					<div class="row">
+						<div class="col-6 col-12-medium"><input type="text" placeholder="Name"></div>
+						<div class="col-6 col-12-medium"><input type="email" placeholder="Email"></div>
+						<div class="col-12"><textarea placeholder="Message"></textarea></div>
+						<div class="col-12"><input type="submit" value="Gönder"></div>
+					</div>
+				</form>
+			</article>
+
+			<!-- Youtube -->
+			<article id="youtube" class="panel">
+				<div class="yt-container">
+					<iframe src="https://www.youtube.com/embed/NMThdHhrLoM" allowfullscreen></iframe>
+				</div>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; KadirErgenc</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
